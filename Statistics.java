@@ -81,7 +81,7 @@ final class Statistics {
     * @param arrayOfIntegers the collection of integers
     * @return the mode of the integers
     */
-    public static List<Integer> mode(Integer[] arrayOfIntegers) {
+    public static List<Integer> mode(final Integer[] arrayOfIntegers) {
         final ArrayList<Integer> listSecond = new ArrayList<Integer>();
         final ArrayList<Integer> listanswer = new ArrayList<Integer>();
         final int numberLong = arrayOfIntegers.length;
